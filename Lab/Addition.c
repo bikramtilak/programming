@@ -1,8 +1,11 @@
 #include<stdio.h>
-void main(){
+int main(){
   int a,b,c;
-printf("Enter two number");
-scanf("%d %d", &a,&b);
+printf("the value of a=\n");
+scanf("%d",&a);
+printf("the value of b=\n");
+scanf("%d",&b);
 c=a+b;
-printf("%d+%d=%d\n", a,b,c);
+printf("sum c=%d",c);
+return 0;
 }
